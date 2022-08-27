@@ -1,0 +1,118 @@
+
+/**************************************(NAVIGATION)*************************************************************************/
+.header h1 {
+    font-family: 'Silkscreen',
+}
+
+body {
+    margin: 0;
+    margin-top: 0;
+    font-family: 'source sans pro', sans-serif;
+}
+
+.header {
+    background-color: #daddca;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px 0 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav a {
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    display: block;
+    transition: all 0.3s ease-out;
+}
+
+.nav {
+     list-style: none;
+     display: flex;
+}
+
+.nav a:hover {
+    color: darkgrey;
+    transform: rotate(6deg);
+}
+
+/****************************************(Neck)******************************************************************************/
+
+.neck {
+    background-color: #c5cae9;
+    padding: 60px 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.neck-text {
+    max-width: 750px;
+}
+
+.neck h1 {
+    font-weight: normal;
+    font-size: 3rem;
+    margin: 0;
+    font-family: 'Silkscreen';
+}
+
+.neck p {
+    line-height: 1.50;
+    font-size: 1.15rem;
+    font-family: 'Source Sans Pro';
+}
+
+.button {
+    background-color: #3945ab;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-size: 1.15rem;
+    display: inline-block;
+}
+
+/*****************************************(torso)***************************************************************/
+
+.chest {
+    background-color: #e8eaf6;
+    padding: 60px 40px 10px 40px;
+}
+
+.features {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 45px;
+    grid-row-gap: 45px;
+}
+
+.pic {
+    width: 300px;
+}
+
+.feature h3 {
+    color: #283593;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.feature p {
+    color: #333;
+    margin: 0;
+    line-height: 1.6;
+    font-family: 'Source Sans Pro';
+}
+
+/*************************************(Footer)**************************************************************/
+
+.footer {
+    text-align: center;
+    padding: 50px 0px 10px 0px;
+    color: #999;
+    font-size: .9rem;
+}
